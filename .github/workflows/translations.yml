@@ -1,5 +1,5 @@
 name: translation-workflow
-run-name: regenerating pot file
+run-name: Regenerating pot file
 
 on:
   workflow_run:
