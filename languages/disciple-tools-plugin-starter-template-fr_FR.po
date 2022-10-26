@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "plugin-starter-template\n"
 "POT-Creation-Date: 2022-10-25T09:36:49+00:00\n"
-"PO-Revision-Date: 2022-10-25 15:12+0000\n"
+"PO-Revision-Date: 2022-10-26 12:42+0000\n"
 "Last-Translator: Corsacca <corsacca@gmail.com>\n"
 "Language-Team: French <https://translate.disciple.tools/projects/"
 "disciple-tools/corsacca-starter-plugin/fr/>\n"
@@ -33,7 +33,7 @@ msgstr "Sample API Call"
 #: magic-link/magic-link-user-app.php:167
 #: magic-link/post-type-magic-link/magic-link-post-type.php:102
 msgid "Add Magic"
-msgstr ""
+msgstr "Ajouter magie"
 
 #: magic-link/post-type-magic-link/magic-link-post-type.php:128
 msgid "Magic Url"
