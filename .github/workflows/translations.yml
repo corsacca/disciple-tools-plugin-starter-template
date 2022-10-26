@@ -39,7 +39,7 @@ jobs:
             git checkout translate || git checkout -b translate
 
       - name: Sync
-        run: git merge master
+        run: git merge master -c "user.name=${{ github.actor }}" -c "user.email=${{github.actor}}@users.noreply.github.com"
 
       #######################
       ### MAKE EDITS HERE ###
