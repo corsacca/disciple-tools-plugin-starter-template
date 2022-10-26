@@ -9,16 +9,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-10-26T12:54:03+00:00\n"
+"POT-Creation-Date: 2022-10-26T13:44:16+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.6.0\n"
+"X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: disciple-tools-plugin-starter-template\n"
-
-#: admin/admin-menu-and-tabs.php:40
-#: admin/admin-menu-and-tabs.php:49
-#: tile/custom-tile.php:32
-msgid "Plugin Starter Template"
-msgstr ""
 
 #: charts/one-page-chart-template.php:68
 msgid "Sample API Call"
@@ -187,6 +181,10 @@ msgstr ""
 #: post-type/module-base.php:604
 #: post-type/module-base.php:612
 msgid "All"
+msgstr ""
+
+#: tile/custom-tile.php:32
+msgid "Plugin Starter Template"
 msgstr ""
 
 #: tile/custom-tile.php:33
