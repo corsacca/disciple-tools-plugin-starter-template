@@ -27,7 +27,9 @@ jobs:
         uses: godaddy-wordpress/setup-wp-cli@1
 
       - name: Switch to translate branch
-        run: git checkout translate || git checkout -b translate
+        run: |
+            git fetch
+            git checkout translate || git checkout -b translate
 
       - name: Sync
         run: git merge master
