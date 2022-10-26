@@ -5,6 +5,10 @@ on:
   workflow_run:
     workflows: ["Release"]
     types: [requested]
+
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 concurrency:
@@ -17,6 +21,8 @@ jobs:
     steps:
       - name: Checkout master branch
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Install PHP
         uses: shivammathur/setup-php@master
@@ -25,15 +31,6 @@ jobs:
 
       - name: Setup WP-CLI
         uses: godaddy-wordpress/setup-wp-cli@1
-
-      - name: Switch to translate branch
-        run: |
-            git status
-            git fetch
-            git checkout translate || git checkout -b translate
-
-      - name: Sync
-        run: git merge master
 
       #######################
       ### MAKE EDITS HERE ###
